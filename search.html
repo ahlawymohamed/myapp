@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link rel="icon" href="../images/Hopstarter-Soft-Scraps-Zoom.ico">
+    <title>Search page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="../css/index.css" >
+    <link rel="stylesheet" href="../css/search.css" >
+    <link rel="stylesheet" href="../css/addemp.css">
+</head>
+<body style="background-color: palegreen;">
+    <nav class="navbar navbar-expand-sm  navbar-dark">
+        <!-- Brand/logo -->
+        <img src="https://img.icons8.com/fluent/48/000000/small-business.png" id="logo">
+        <a class="navbar-brand" id="brand" href="#">
+          El-Salam Company
+        </a>
+        
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="" id="sl">AR</a>
+            </li>
+          <li class="nav-item">
+            <i class="far fa-envelope" id="mail"></i>
+          </li>
+          <li class="nav-item">
+            <img src="../images/Custom-Icon-Design-Pretty-Office-8-User-blue.ico" id="user">
+          </li>
+          
+        </ul>
+      </nav>
+<div class="contentOfSide">
+    <aside class="side-bar">
+        <div class="content-side">
+        <p style="color:white;  font-family: serif;
+        font-size: 20px;
+        font-style: italic;text-align: center;">
+            Welcome Mohamed
+        </p>
+        <div>
+            <img src="../images/profile.png" id="sideuser">
+        </div>
+        <div class="jobs">
+            <ul id="list" > 
+                <li><a href="index.html"><i class="fas fa-home" id="proof"></i>Home</a></li>
+           
+         
+                <li><a href=""><i class="fas fa-users" id="proof"></i>Employess</a><i class="fas fa-chevron-right" id="right" ></i>
+                    <i class="fas fa-chevron-down" id="ico"></i>
+                    
+                   
+                    <ul id="all">
+
+                       <li> <a href="addemp.html"> <i class="fas fa-angle-double-right" id="dr"></i>Add Employee</a></li> 
+                       <li> <a href="updateemp.html"> <i class="fas fa-angle-double-right" id="dr"></i>Update Employee</a></li> 
+                       <li> <a href="delemp.html"> <i class="fas fa-angle-double-right" id="dr"></i>Delete Employee</a></li> 
+                    </ul>
+                
+                
+                </li>
+                <li><i class="fas fa-search" id="proof"></i><a href="search.html">Search</a></li>
+                <li><a href=""><i class="fas fa-print" id="proof"></i>Get Data </a> <i class="fas fa-chevron-right" id="rightofprint" ></i>
+                    <i class="fas fa-chevron-down" id="ico2"></i>
+                    <ul id="all2">
+                        <li><a href=""> <i class="fas fa-angle-double-right" id="dr"></i>HR</a></li>
+                        <li><a href=""> <i class="fas fa-angle-double-right" id="dr"></i>Sales</a></li>
+                        <li><a href=""> <i class="fas fa-angle-double-right" id="dr"></i>Production</a></li>
+                        <li><a href=""> <i class="fas fa-angle-double-right" id="dr"></i>IT</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer id="foot">
+        <p> Powered by Admin&copy;</p>
+    </footer>
+    </aside>
+
+</div>
+<div class="body">
+    <i class="fas fa-search" id="head"></i>
+   
+</div>
+<h1> Search.....</h1>
+<form method="POST" action=""></form>
+<fieldset>
+    <legend>Employee Data </legend>
+    
+    
+        <div id="iso">
+            <label for="ID">ID To Search</label>
+                <input type="number" id="ID" min="1"  placeholder="Employee ID">
+                </div>
+                <input type="submit" value="Search" class="btn btn-danger" id="search">
+                <input type="reset" value="Reset" class="btn btn-warning" id="res">  
+        </form>
+        </fieldset>
+  <center>
+       <table id="tab" >
+           <tr>
+               <th>ID</th>
+               <th>Name</th>
+               <th>Phone</th>
+               <th>Email</th>
+               <th>Department</th>
+           </tr>
+          
+        
+       </table>
+    </center>
+    
+<script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../node_modules/fontawesome-free-5.15.3-web/js/all.js"></script>
+    <script src="../js/index.js"></script>
+
+</body>
+</html>
